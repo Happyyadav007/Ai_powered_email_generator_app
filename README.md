@@ -13,10 +13,14 @@ npm install
 
 Create a .env file in the backend directory and configure the following:
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-GEMINI_API_KEY=your_google_gemini_api_key
-EMAIL_SERVICE_API_KEY=your_email_service_api_key
+PORT = 4000
+MONGODB_URL = "your_Mongodb_url"
+
+GEMINI_API_KEY = "your_gemini_api_key"
+
+MAIL_HOST = smtp.gmail.com
+MAIL_USER = 'your_email'
+MAIL_PASS = 'your_app_password'
 
 
 cd email-generator
