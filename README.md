@@ -5,7 +5,7 @@ git clone https://github.com/Happyyadav007/Ai_Powered_email_generator_app.git
 cd Ai_Powered_email_generator_app.git
 
 
-cd email-generator
+cd email-generator 
 npm install
 
 cd  server
